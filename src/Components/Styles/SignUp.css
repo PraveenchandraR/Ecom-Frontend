@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.SignUpContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 37px;
+  gap: 10px;
+  flex-basis: 50%;
+  height: auto;
+  position: relative;
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+
+.flexItem {
+  width: 300px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.flexItem h3 {
+  text-align: center;
+}
+
+.flexItem label {
+  display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.flexItem input {
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  /* accent-color: grey; */
+  border-radius: 10px;
+  height: 25px;
+}
+
+.form {
+  padding: 10px;
+}
+
+#submit {
+  display: inline-block;
+  position: relative;
+  background-color: lightblue;
+  border: none;
+  width: 165px;
+  height: 25px;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 10px;
+  /* margin-top: 10px; */
+  top: 32px;
+  left: 78px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+.clickSignIn {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+  gap: 10px;
+}
+
+.clickSignIn button {
+  border: none;
+  background: none;
+}
+
+.clickSignIn button:hover {
+  cursor: pointer;
+}
+
+.clickSignIn span {
+  color: blue;
+}

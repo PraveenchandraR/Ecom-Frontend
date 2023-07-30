@@ -1,0 +1,44 @@
+.ItemImg {
+  height: 100px;
+}
+.itemTitile {
+  display: inline-block;
+  text-align: center;
+  /* position: relative;
+    top: -10px; */
+}
+
+.imgContainer {
+  text-align: right;
+}
+.dec,
+.inc {
+  background: transparent;
+  border: 1px solid black;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 600;
+  color: red;
+}
+
+.ItemQty {
+  display: inline-block;
+  padding: 10px;
+}
+.check {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.checkout {
+  width: 100px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.carttotal{
+  background-color: aquamarine;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+.ProfileNavBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px 0px 0 80px;
+  justify-content: left;
+  line-height: 50px;
+  flex-direction: column;
+  max-width: max-content;
+  position: relative;
+}
+
+.userImage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 20px;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.ProfilePicture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.ProfilePicture {
+  opacity: 0.7;
+}
+
+
+@media screen and (min-width:250px) and (max-width:500px){
+
+
+.ProfileNavBar .userImage{
+margin-left: 63px;
+}
+nav ul{
+  margin-left: 50px;
+}
+}

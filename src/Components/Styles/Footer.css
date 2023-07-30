@@ -1,0 +1,22 @@
+.MainFooterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.FootersubContainer {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.FooterSubConFlexItem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 33%;
+}

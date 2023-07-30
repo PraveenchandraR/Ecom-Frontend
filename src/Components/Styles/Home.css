@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel {
+  width: 100%;
+  height: 200px;
+  background: transparent
+    linear-gradient(
+      67deg,
+      #97777d 0%,
+      #ecc7c1 45%,
+      #efcac4 58%,
+      #e4bdb8 70%,
+      #42a8fe 100%
+    )
+    0% 0% no-repeat padding-box;
+}
+.MainContainer {
+  background-color: azure;
+}
+.carouselImg {
+  padding: 9px;
+  display: inherit;
+  margin-right: 12px;
+  margin-left: auto;
+  width: 250px;
+  height: 180px;
+}
+
+.seller {
+  text-align: center;
+}
+
+.carouse2 {
+  background: #2e90e5 0% 0% no-repeat padding-box;
+  height: 280px;
+  position: relative;
+}
+
+.carouse2 img {
+  height: 250px;
+  /* top: -70px;
+   */
+  position: absolute;
+  left: 70%;
+}
+
+.carouse2 h3 {
+  text-align: left;
+  font: normal normal normal 47px/35px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  position: absolute;
+  width: 266px;
+  left: 25%;
+  top: 75px;
+}
+
+.carouse2 p {
+  text-align: left;
+  font: normal normal normal 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  position: absolute;
+  width: 266px;
+  /* height: 82px; */
+  left: 25%;
+  top: 121px;
+  margin: 0;
+  display: inline-block;
+  line-height: 20px;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 900px) {
+  .carouse2 img {
+    display: none;
+  }
+}

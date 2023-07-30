@@ -1,0 +1,30 @@
+.shippringContainer {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.shippingContainerItems {
+  height: auto;
+  width: 260px;
+}
+
+.shippingContainerItems p {
+  font-size: 12px;
+}
+
+.shippingContainerItems img {
+  height: 50px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: aliceblue;
+}

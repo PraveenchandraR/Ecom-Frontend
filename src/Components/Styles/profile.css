@@ -1,0 +1,21 @@
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 91px;
+}
+
+.signoutbtn {
+  background-color: darkorange;
+  border-radius: 15px;
+  padding: 3px 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.hr {
+  margin: 0 84px;
+  opacity: 0.5;
+}

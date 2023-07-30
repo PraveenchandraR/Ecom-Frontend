@@ -1,0 +1,135 @@
+.flex-containerLoadMore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.flex-items {
+  text-align: center;
+  width: auto;
+  flex: 30%;
+  transition: width 2s;
+  flex-basis: 25%;
+  /* max-width: 366px; */
+  margin: auto;
+}
+
+.flex-items:hover {
+  /* width: 300px; */
+  box-shadow: 5px 5px 10px gray;
+  background-color: #f7f9f9;
+}
+
+.image {
+  align-items: center;
+  padding: 7px;
+}
+
+.details {
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  height: 160px;
+  width: 140px;
+}
+.LoadMoreBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.LoadMoreBtn {
+  background-color: transparent;
+  border: none;
+  color: blue;
+}
+
+.LoadMoreBtnHr {
+  width: 60px;
+  height: 3px;
+  background-color: blue;
+  color: blue;
+  margin-bottom: 25px;
+}
+
+.LoadMoreBtn:hover {
+  cursor: pointer;
+}
+
+/* .flex-items:hover .addtoCartDiv {
+    display: inline-block;
+    width: max-content;
+    position: relative;
+    opacity: 0.7;
+    top: -100px;
+} */
+
+/* .addtoCartDiv {
+    display: none;
+    
+    border: solid red;
+    border-radius: 10px;
+} */
+
+/* .addtoCartButton {
+    background-color: transparent;
+    border: none;
+} */
+
+.addtoCartButton {
+  border: 2px solid #767676;
+  background: transparent;
+  color: #767676;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.07rem;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  height: 28px;
+  width: 111px;
+  border-radius: 10px;
+}
+
+.addtoCartButton span {
+  transition: all 0.2s ease-in-out;
+}
+
+.addtoCartButton .IconCart {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1779ba;
+  right: -30px;
+  transition: 0.4s right cubic-bezier(0.38, 0.6, 0.48, 1);
+}
+
+.addtoCartButton:hover {
+  border-color: #1779ba;
+  background: transparent;
+  transition: border-color 0.2s;
+  width: 150px;
+}
+
+.addtoCartButton:hover span {
+  margin-right: 20px;
+  color: #1779ba;
+}
+
+.addtoCartButton:hover .IconCart {
+  right: 5px;
+}

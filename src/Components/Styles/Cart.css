@@ -1,0 +1,65 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  align-items: center;
+  row-gap: 10px;
+  text-align: center;
+}
+.gridItem1 {
+  display: inline;
+}
+
+.Item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.Font {
+  font-size: larger;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+/* .carttotal{
+position: absolute;
+left: 70rem;
+top: 23rem;
+letter-spacing: 5px;
+}
+
+#total{
+
+  font-size: 30px;
+  font-weight: bold;
+  background-color: aquamarine;
+  border-radius: 10px;
+  
+
+}
+#totalprice{
+  font-size: 25px;
+}
+
+@media screen and (min-width:250px) and (max-width:500px){
+  .carttotal{
+    
+    position: absolute;
+    left: 13rem;
+    top: 31rem;
+    letter-spacing: 5px;
+    }
+
+    #total{
+
+      font-size: 20px;
+      font-weight: bold;
+      background-color: aquamarine;
+      border-radius: 10px;
+      
+    
+    }
+    #totalprice{
+      font-size: 15px;
+    }
+} */

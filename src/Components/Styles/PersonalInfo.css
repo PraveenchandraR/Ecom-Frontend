@@ -1,0 +1,101 @@
+.PersonalInfoContainer {
+  text-align: center;
+  position: relative;
+  top: -253px;
+  left: 251px;
+  padding: 10px;
+  /* border: 1px solid; */
+  height: auto;
+  width: 607px;
+}
+
+.infoFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  /* flex: 50%; */
+}
+
+.ParaInfoUpadte {
+  font-size: small;
+  line-height: 16px;
+}
+
+.infoFlexItem {
+  height: 70px;
+
+  width: max-content;
+  background-color: azure;
+  border-radius: 10px;
+  width: 35%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.PersonalInfoContainer {
+  text-align: center;
+  position: relative;
+  top: -253px;
+  left: 251px;
+  padding: 10px;
+  /* border: 1px solid; */
+  height: auto;
+  width: 607px;
+}
+
+.infoFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  /* flex: 50%; */
+}
+
+.ParaInfoUpadte {
+  font-size: small;
+  line-height: 16px;
+}
+
+.infoFlexItem {
+  height: 70px;
+
+  width: max-content;
+  background-color: azure;
+  border-radius: 10px;
+  width: 35%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (min-width:250px) and (max-width:500px){
+  .PersonalInfoContainer {
+  
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: -57px;
+    padding: 10px;
+    /* border: 1px solid; */
+    height: auto;
+    width: 428px;
+  }
+  .PersonalInfoContainer h3{
+    display: inline;
+  }
+  .ParaInfoUpadte{
+    display: none;
+  }
+  .infoFlexContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
